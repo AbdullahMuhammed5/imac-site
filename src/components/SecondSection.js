@@ -1,5 +1,5 @@
 import React from 'react';
-import iMac from '../assets/imac-is-fast.png';
+import iMac from '../assets/imac-performance.png';
 
 const SecondSection = () => {
 	return (

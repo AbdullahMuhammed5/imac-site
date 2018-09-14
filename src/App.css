@@ -22,6 +22,16 @@
   font-size: large;
 }
 
+p{
+  color: #838383;
+}
+
+a{
+  text-decoration: none; 
+  color: black;
+}
+
+
 /*==================================================================*/
 
 /* Top nav style */
@@ -126,7 +136,6 @@
   margin-left:20%;
   margin-right:20%;
   margin-bottom: 60px;
-  color: #838383;
 }
 
 .first-section p:nth-child(4), .first-section p:nth-child(5){
@@ -151,6 +160,11 @@
   width: 75%;
   margin-left:12.5%;
   margin-right:12.5%;
+  margin-bottom: 100px;
+}
+
+.second-section img{
+  margin-bottom: 100px;
 }
 
 .second-section .container p {
@@ -164,12 +178,100 @@
 }
 
 .second-section p:nth-child(2){
-  color: #838383;
   padding-bottom: 90px;
 }
 
+/*==================================================================*/
+
+/* Third section style */
+
+/*==================================*/
+
+#third-section {
+  display: flex;
+  flex-direction: column;
+}
 
 
+#third-section #part-one{
+  display: flex;
+  margin-top: 100px;
+}
+
+#part-one #block-one{
+  flex: 1;
+  background-color: #FAFAFA;
+  padding: 60px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#part-one #block-two{
+  flex: 1;
+  background-color: #FAFAFA;
+  margin-left: 10px;
+  padding: 60px;
+}
+
+#block-one div:nth-child(2) {
+  margin-top: 60px;
+  margin-bottom:50px;
+}
+
+#block-one div:nth-child(2) span{
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.orange-hr{
+  background-color: orange;
+  width: 200px;
+  height: 4px;
+}
+
+.gray-hr{
+  background-color: #BFBFBF;
+  width: 120px;
+  height: 4px;
+}
+
+#block-one div:nth-child(3) span{
+  font-size: 13px;
+  color: #838383;
+}
+
+#block-one div:nth-child(3) p{
+  font-size: 35px;
+  color: orange;
+}
+
+#part-one #block-two{
+  height: 800px;
+  background-color: #F5F5F5;
+}
+
+#part-two{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  background-color: white;
+}
+
+#block-three{
+  flex: 1;
+  background-color: #FAFAFA;
+  padding: 70px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#block-four{
+  flex: 1;
+  background-color: #FAFAFA;
+  padding: 70px;
+  text-align: left;
+  margin-left: 10px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

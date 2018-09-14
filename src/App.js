@@ -3,6 +3,7 @@ import TopNav from './components/TopNav.js';
 import FixedNav from './components/FixedNav.js';
 import FirstSection from './components/FirstSection.js';
 import SecondSection from './components/SecondSection.js';
+import ThirdSection from './components/ThirdSection.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -14,6 +15,7 @@ class App extends Component {
         <FixedNav />
         <FirstSection />
         <SecondSection />
+        <ThirdSection />
       </div>
 
     );
