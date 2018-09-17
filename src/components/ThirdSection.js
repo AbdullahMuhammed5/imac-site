@@ -6,7 +6,7 @@ const ThirdSection = () => {
 		<div id='third-section'>
 			<div id='part-one'>
 				<div id='block-one'>
-					<div style={{marginBottom:'50px'}}>
+					<div>
 						<h3>Graphics that render you speechless.</h3>
 						<p>iMac features powerful new Radeon Pro 500 series graphics that make a spectacle of everything you see. The 27-inch iMac with Retina 5K display is loaded with up to 8GB of dedicated VRAM. And the 21.5-inch iMac with Retina 4K display ignites with up to 4GB. Both deliver visual effects and 3D graphics that exhibit raw power in its most polished form. On top of that, you get advanced video editing capabilities. Now you can edit multicam projects in Final Cut Pro X with up to five streams of full-resolution 4K video.</p>
 					</div>
@@ -15,7 +15,7 @@ const ThirdSection = () => {
 						<span>21.5-inch 4K<sup>2</sup></span>
 						<span>27-inch 5K<sup>3</sup></span>
 					</div>
-					<div style={{marginTop:'50px'}}>
+					<div>
 						<p>1.8X <span>faster video editing</span></p>
 						<hr className='orange-hr' align="left"/>
 						<hr className='gray-hr' align="left"/>

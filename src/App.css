@@ -203,7 +203,6 @@ a{
 #third-section #part-one{
   display: flex;
   margin-top: 100px;
-  justify-content: space-around;
 }
 
 #part-one #block-one{
@@ -212,7 +211,6 @@ a{
   padding: 60px;
   text-align: left;
   margin-right: 10px;
-
 }
 
 #part-one #block-two{
@@ -224,6 +222,11 @@ a{
 #block-one div:nth-child(2) span{
   padding: 10px;
   border-right: 1px solid black;
+}
+
+#block-one div:nth-child(2){
+  margin-bottom:60px;
+  margin-top:60px;
 }
 
 .orange-hr{
@@ -249,7 +252,6 @@ a{
 }
 
 #part-one #block-two{
-  height: 800px;
   background-color: #F5F5F5;
 }
 
@@ -286,6 +288,7 @@ a{
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 10%;
 }
 
 .section-five div:nth-child(1){
@@ -314,18 +317,44 @@ a{
 
 #buy-imac{
   display: flex;
-  margin: 50px 100px;
+  margin: 50px 200px;
 }
 
-.footer div:nth-child(2){
+#buy-imac p{
+ color: #585858;
+ font-size: 20px;
+}
+
+#buy-imac a{
+ color: #44acfc;
+ font-size: 20px;
+}
+
+#buy-imac div{
+  flex: 1 1 50%;
+/*   border: black solid 1px; */
+}
+
+#services{
   display: flex;
+  margin-bottom:70px;
+  margin-top:70px;
+  text-align: center;
 }
 
-.footer div:nth-child(2) div{
+#services div{
   flex: 1 1 25%;
-  border: black solid 1px;
 }
 
+#services a{
+  color: #44acfc;
+  font-size: 20px;
+}
+
+#footer-content ol{
+  font-size: 13px;
+  color: #838383; 
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
